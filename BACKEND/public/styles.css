@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(142, 142, 249);
+
+}
+  
+#header{
+    display: flex;
+    margin: 5px;
+    padding: 1.2rem;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:  blue;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+#header p{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color: rgb(142, 142, 249);
+    padding: 10px;
+    position: fixed;
+        top: 1rem;
+        left: 1rem;
+
+}
+#navbar{
+    display: flex;
+    
+}
+
+li{
+    list-style: none;
+    padding-right: 2rem;
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    background-color: blue;
+}
+.home{
+    padding-left: 40rem;
+}
+.contact{
+    padding-right: 5rem;
+}
+
+.profileImage{
+    width: 50vw;
+    height: 60vh;
+    border-radius: 50%;
+    background-color: aqua;
+    box-shadow: 10px 10px 5px lightblue;
+    margin: 4rem;
+}
+
+.left{
+
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.left p{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+
+}
+
+span{
+    color: rgb(17, 255, 0);
+    padding-bottom: 20rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: flex;
+    /* background-color: rgb(86, 86, 222); */
+
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    padding-left: 2rem;
+}
+#logoContainer{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    padding-left: 14rem;
+
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 50px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+label, input, textarea{
+    display: block;
+
+}
+input{
+    border: none;
+    background-color: rgb(188, 188, 247);
+    width: 15rem;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+}
+textarea{
+    border: none;
+    background-color: rgb(188, 188, 247);
+    width: 15rem;
+    height: 75px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+
+}
+
+.contactContainer{
+    
+    justify-content: center;
+    align-items: center;
+    padding-left: 40vw;
+    font-size: 20px;
+    
+}
+.submit{
+    margin-left: 40px;
+    width: 10rem;
+    background-color: chartreuse;
+    font-size: 25px;
+}
+
+.namer{
+    margin-top: 100px;
+}

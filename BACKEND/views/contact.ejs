@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+ 
+
+    <form class="contactContainer" action="/submit" method="post">
+        <label class="namer" for="name">Name</label>
+        <input  type="text"name="name" placeholder="Enter full name">
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter email address">
+        <label for="comment">Comment</label>
+        <textarea name="comment" cols="30" rows="10" placeholder="comment!"></textarea>
+        <input class="submit" type="submit" value="Submit">
+    </form>
+ 
+<%- include("partials/footer.ejs") %>
